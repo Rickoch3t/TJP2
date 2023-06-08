@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+body {
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+ol {
+    /* Add your desired styles here */
+    list-style-type: lower-alpha; /* Change the list style to upper-roman */                  
+  }
+
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: #1689f5;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 30px; 
+    color: white;    
+  }
+
+  .tab a {
+    text-decoration: none;
+    color: white; 
+  }
+
+  /*
+  .tab:hover {
+    background-color: #1345eb;
+  }
+  */
+  
+  
+
