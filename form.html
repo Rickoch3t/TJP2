@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="./form-style.css">
+</head>
+
+<body>
+  <section class="container">
+    <header>
+      <h1 class="title">Contact Form</h1>
+    </header>
+    <main>
+      <form>
+        <div class="input-holder">
+          <label for="name">Name:</label>
+          <input class="text-input" type="text" name="name" id="name" placeholder="Enter your Name" required>
+        </div>
+
+        <div class="input-holder">
+          <label for="Username">Username:</label>
+          <input class="text-input" type="text" name="Username" id="Username" placeholder="Enter your username"
+            required>
+        </div>
+
+        <div class="input-holder">
+          <label for="password">Password: </label>
+          <input class="text-input" type="password" name="password" id="password" placeholder="Enter your Password"
+            required>
+        </div>
+
+        <div class="input-holder">
+          <label for="confirm-password">Re-type Password: </label>
+          <input class="text-input" type="password" name="confirm-password" id="confirm-password"
+            placeholder="Re-enter your Password" required>
+
+        </div>
+        <div class="input-holder">
+          <label for="Gender">Gender:</label>
+          <div class="select-input">
+            <input type="radio" name="Gender" id="Gender" class="select-btn"><span>Male</span>
+            <input type="radio" name="Gender" id="Gender" class="select-btn"><span>Female</span>
+          </div>
+
+        </div>
+
+        <div class="input-holder">
+          <label for="skills">Techie Skills:</label>
+          <div class="select-input">
+            <input type="checkbox" name="skills" id="skills" class="select-btn"><span>HTML</span>
+            <input type="checkbox" name="skills" id="skills" class="select-btn"><span>CSS</span>
+            <input type="checkbox" name="skills" id="skills" class="select-btn"><span>JavaScript</span>
+          </div>
+
+        </div>
+
+        <div class="input-holder">
+          <label for="phone">Phone Number:</label>
+          <input class="text-input" type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+
+        </div>
+
+        <div class="input-holder">
+          <label for="email">Email: </label>
+          <input class="text-input" type="email" name="email" id="email" placeholder="Enter your Email address"
+            required>
+
+        </div>
+
+        <div class="input-holder">
+          <label for="college">College:</label>
+          <div class="text-input">
+            <select name="college" id="college" class="college-select">
+              <option value="">Select a College</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-holder">
+          <span> </span>
+          <input class="btn" type="submit" value="Submit">
+        </div>
+
+      </form>
+    </main>
+  </section>
+</body>
+
+</html>
